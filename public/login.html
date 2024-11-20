@@ -50,11 +50,10 @@
                 </div>
 
                 <span> Ou então usar E-MAIL para cadastrar</span>
-                <input type="text" placeholder="Nome" id="">
-                <input type="email" placeholder="E-mail" id="">
-                <input type="password" placeholder="Senha" id="">
-                <button> Registrar </button>
-
+                <input type="text" placeholder="Nome" id="inputNameRegiste">
+                <input type="email" placeholder="E-mail" id="inputEmailRegister">
+                <input type="password" placeholder="Senha" id="inputPasswordRegister">
+                <button id="btnRegister"> Registrar </button>
             </form>
         </div>
     
@@ -69,22 +68,23 @@
                 </div>
 
                 <span> Ou então usar E-MAIL e Senha para entrar</span>
-                <input type="email" placeholder="E-mail" id="">
-                <input type="password" placeholder="Senha" id="">
+                <input type="email" placeholder="E-mail" id="inputEmailLogin">
+                <input type="password" placeholder="Senha" id="inputPasswordLogin">
                 <a href="#"> Esqueci a Senha </a>
-                <button> Entrar </button>
-
+                <button id="btnSignUp"> Entrar </button>
             </form>
         </div>
         
         <div class="toggle-container">
             <div class="toggle">
-                <div class="toggle-panel toggle left">
+                
+                <div class="toggle-panel toggle-left">
                     <h1>Bem-vindo de volta!</h1>
                     <p>Entre com suas informações para usar nosso protocolo.</p>
                     <button class="hidden" id="login"> Entrar </button>
                 </div>
-                <div class="toggle-panel toggle right">
+
+                <div class="toggle-panel toggle-right">
                     <h1>Olá!</h1>
                     <p>Entre com suas informações para usar nosso protocolo.</p>
                     <button class="hidden" id="register"> Registrar </button>
@@ -93,7 +93,7 @@
         </div>
     </div>
         
-    <script src="../src/script.js"></script>
+    <script src="../src/index.js"></script>
     <!-- Bootstrap 5 JS (completo, incluindo Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- icons -->
